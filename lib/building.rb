@@ -24,14 +24,14 @@ class Building
   end
 
   # def rented_units
-  #
+  #I would use a find enum here
   # end
 
   # def renter_with_highest_rent
-  #
+  #I would use the max_by enum here
   # end
 
   # def units_by_number_of_bedrooms
-  #
+  #I would use the sort_by or group_by enum here
   # end
 end
