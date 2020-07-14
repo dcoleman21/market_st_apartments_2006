@@ -1,10 +1,12 @@
 class Building
   attr_reader :units,
-              :renters
+              :renters,
+              :rented_units
 
   def initialize
-    @units   = []
-    @renters = []
+    @units        = []
+    @renters      = []
+    @rented_units = []
   end
 
   def add_unit(unit)
@@ -12,7 +14,7 @@ class Building
   end
 
   def add_renter(renter)
-    @renters << renter
+    @renters = @renter
   end
 
   def average_rent
@@ -21,4 +23,15 @@ class Building
     end
   end
 
+  # def rented_units
+  #
+  # end
+
+  # def renter_with_highest_rent
+  #
+  # end
+
+  # def units_by_number_of_bedrooms
+  #
+  # end
 end
