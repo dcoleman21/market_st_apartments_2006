@@ -291,7 +291,7 @@ class BuildingTest < Minitest::Test
       monthly_rent: 1500,
       bathrooms: 2,
       bedrooms: 3
-    })
+      })
     building.add_unit(unit1)
     building.add_unit(unit2)
     building.add_unit(unit3)
