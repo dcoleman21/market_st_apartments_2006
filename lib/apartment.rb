@@ -5,11 +5,11 @@ class Apartment
               :bedrooms,
               :renter
 
-  def initialize(apt_param)
-    @number       = apt_param[:number]
-    @monthly_rent = apt_param[:monthly_rent]
-    @bathrooms    = apt_param[:bathrooms]
-    @bedrooms     = apt_param[:bedrooms]
+  def initialize(data)
+    @number       = data[:number]
+    @monthly_rent = data[:monthly_rent]
+    @bathrooms    = data[:bathrooms]
+    @bedrooms     = data[:bedrooms]
     @renter       = nil
   end
 
